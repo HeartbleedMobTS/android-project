@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         // Upper buttons
         if (v == findViewById(R.id.btnActivityScreen)) {
             // TODO: Add moving to ActivityScreenActivity
+
+            //Intent for testing MovementActivity
+            Intent movAct = new Intent(MainActivity.this, MovementActivity.class);
+            startActivity(movAct);
         }
         if (v == findViewById(R.id.btnStatistics)) {
             // TODO: Add moving to StatisticsActivity

@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
-        <activity android:name=".GenderChooseActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MovementActivity"
+            android:label="Aktiivisuus"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".GenderChooseActivity" />
+        <activity android:name=".MainActivity"
+            android:label="Pahepuntari">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
