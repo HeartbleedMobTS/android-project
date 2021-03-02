@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(getGender);
         }
 
+        //Start tracking activity
+
     }
 
     /**
