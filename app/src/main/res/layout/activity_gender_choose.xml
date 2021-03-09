@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="291dp"
@@ -17,7 +17,8 @@
         android:layout_marginRight="45dp"
         android:layout_marginBottom="29dp"
         android:gravity="center"
-        android:text="Welcome, first time user! Please choose your gender."
+        android:text="@string/welcomeText"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/maleButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="341dp"
         android:onClick="buttonClick"
-        android:text="Male"
+        android:text="@string/male"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/femaleButton"
         app:layout_constraintHorizontal_chainStyle="packed"
@@ -43,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonClick"
-        android:text="Female"
+        android:text="@string/female"
         app:layout_constraintBaseline_toBaselineOf="@+id/maleButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/maleButton" />

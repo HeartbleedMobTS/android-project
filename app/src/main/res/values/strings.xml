@@ -30,4 +30,7 @@
     <string name="zRotText">rad/s</string>
     <string name="buttonStartTrackingMovement">Aloita aktiivisuuden seuranta</string>
     <string name="activity">Aktiivisuus</string>
+    <string name="male">Mies</string>
+    <string name="female">Nainen</string>
+    <string name="welcomeText">Tervetuloa käyttämään Pahepuntaria! \n\nValitse ensin sukupuolesi.</string>
 </resources>
